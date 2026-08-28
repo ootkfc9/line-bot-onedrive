@@ -32,10 +32,10 @@ configuration = Configuration(access_token=CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(CHANNEL_SECRET)
 
 # รายชื่อ Admin หลัก (ฝัง User ID ของคุณไว้เรียบร้อย)
-ADMIN_USER_IDS = ["U856d8d37529018e25cbf191e8b04262c"]
+ADMIN_USER_IDS = ["U613acaf90c620142917eeef5737e1fe9"]
 
 # ฐานข้อมูลผู้ใช้ที่มีสิทธิ์ (เริ่มต้นใส่สิทธิ์ให้แอดมินคุณเป็นคนแรก)
-ALLOWED_USERS = {"U856d8d37529018e25cbf191e8b04262c": "Admin Main"}
+ALLOWED_USERS = {"U613acaf90c620142917eeef5737e1fe9": "Admin Main"}
 
 # ฐานข้อมูลเอกสารตัวอย่าง (สามารถเพิ่ม-ลดได้ในระบบ)
 DOCUMENTS_DB = {
