@@ -51,7 +51,7 @@ DOCUMENTS_DB = {
     },
 }
 
-# โครงสร้าง Admin Control Panel Flex Message
+# โครงสร้าง Admin Control Panel Flex Message (แก้ไขรูปแบบ Action ให้ถูกต้อง)
 ADMIN_FLEX_JSON = {
     "type": "bubble",
     "size": "medium",
@@ -93,6 +93,7 @@ ADMIN_FLEX_JSON = {
                     "type": "postback",
                     "label": "➕ เพิ่มสิทธิ์ใช้งาน",
                     "data": "action=add_admin",
+                    "displayText": "➕ เพิ่มสิทธิ์ใช้งาน",
                 },
                 "style": "primary",
                 "color": "#28A745",
@@ -104,6 +105,7 @@ ADMIN_FLEX_JSON = {
                     "type": "postback",
                     "label": "➖ ลบสิทธิ์ใช้งาน",
                     "data": "action=remove_admin",
+                    "displayText": "➖ ลบสิทธิ์ใช้งาน",
                 },
                 "style": "primary",
                 "color": "#DC3545",
@@ -115,6 +117,7 @@ ADMIN_FLEX_JSON = {
                     "type": "postback",
                     "label": "📋 เช็กลิสต์รายการทั้งหมด",
                     "data": "action=list_all",
+                    "displayText": "📋 เช็กลิสต์รายการทั้งหมด",
                 },
                 "style": "secondary",
                 "margin": "md",
